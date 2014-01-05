@@ -1,0 +1,12 @@
+out.txt
+printf.sh
+README.md
+simplecalc.sh
+testuser.sh
+variables.sh
+out.txt
+printf.sh
+README.md
+simplecalc.sh
+testuser.sh
+variables.sh
