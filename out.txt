@@ -1,18 +1,26 @@
-     1	总用量 64
-     2	-rw-rw-r-- 1 howard howard 250  1月  5 12:58 arr.sh
-     3	-rw-rw-r-- 1 howard howard 292  1月 10 16:04 findfault.sh
-     4	-rw-rw-r-- 1 howard howard  20  1月  5 12:46 input.txt
-     5	-rw-rw-r-- 1 howard howard  68  1月  5 12:43 log.txt
-     6	-rw-rw-r-- 1 howard howard   8  1月  5 12:47 output.txt
-     7	-rw-rw-r-- 1 howard howard   0  1月 12 20:04 out.txt
-     8	-rw-rw-r-- 1 howard howard 166  1月  5 10:42 printf.sh
-     9	-rw-rw-r-- 1 howard howard  71  1月  5 10:32 README.md
-    10	-rw-rw-r-- 1 howard howard 121  1月 12 17:09 readpasswd.sh
-    11	-rw-rw-r-- 1 howard howard 103  1月  5 12:43 re.sh
-    12	-rw-rw-r-- 1 howard howard 257  1月  5 11:53 simplecalc.sh
-    13	-rwxrw-r-- 1 howard howard 108  1月 12 19:38 test_debug_2.sh
-    14	-rw-rw-r-- 1 howard howard 108  1月 12 19:36 test_debug.sh
-    15	-rwxrwxr-x 1 howard howard 188  1月 12 18:58 test_sleep.sh
-    16	-rw-rw-r-- 1 howard howard 166  1月 12 19:57 test_success.sh
-    17	-rw-rw-r-- 1 howard howard 102  1月  5 11:18 testuser.sh
-    18	-rw-rw-r-- 1 howard howard  90  1月  5 11:08 variables.sh
+#!/bin/bash
+
+
+
+
+
+array_var={1 2 3 4 5 6}
+array_var[0]="test1"
+array_var[2]="test2"
+array_var[3]="test3"
+
+
+
+
+array_var[4]="test4"
+array_var[5]="test5"
+array_var[6]="test6"
+
+echo ${array_var[0]}
+
+echo ${array_var[*]}
+echo ${array_var[@]}
+echo ${#array_var[*]}
+LOG FILE HEADER
+This is a test log file
+Function: System statistics
