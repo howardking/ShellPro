@@ -1,4 +1,4 @@
 #!/bin/bash
 #Filename:cecho.sh
 
-echo $*'#'
+echo $* '#'
